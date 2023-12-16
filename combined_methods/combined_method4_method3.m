@@ -97,6 +97,5 @@ function combined_method4_method3(matrix_x, matrix_y, vaccinated_num, start_col,
         imagesc(matrix); % Display the matrix as an image
         title(['Iteration: ' num2str(iter)]);
         axis square;
-        pause(0.1); % Pause to see each iteration, adjust as needed
     end
 end
